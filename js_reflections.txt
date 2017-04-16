@@ -51,3 +51,25 @@ dot and bracket notations.
 Also there was a piece of practice with accessing html properties through JS.
 And a lot of work with replacements.
 
+20170416 2247
+I made a tricky quiz. Quiz requested to determine if an object bio had any
+skills inside it. I have not found out a fail-proof method. As I understood,
+there is no one. The methode depends on particular project. In this case I copied
+from stackoverflow 
+bio.skills[0] != null
+
+Note1: != is a counterpart of ==, and !== is of ===. !== does not work in this
+instance. Stackoverflow sais != treats undefined and null for the same, that is
+why it works. Nevertheless, it also works with length, etc. So, it is actually cool.
+
+Note2: Remember, that arrays in JS are LINER. They cannot (statement to be 
+re-checked) have missing elements. Means, it always starts with [0],
+[0] can be null, but cannot be undefined (???).
+
+Conculsion: I liked very much the sample provided by Udacity. It makes vars
+starting with HTML tags, gives them style, etc, and appends them to the HTML
+body elements - WOW! Really cool. I will study it tomorro in a lot lot lot more
+detail.
+
+
+
