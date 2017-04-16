@@ -118,3 +118,37 @@ var projects = {
 	
 	]
 }
+
+/* SKILLS */
+/* SKILLS */
+/* SKILLS */
+
+var bio = {
+	"name" : "Alexey Solonenko",
+	"skills" : 
+	  [
+		{
+			"name" : "HTML",
+			"level" : "+"
+		},
+		
+		{
+			"name" : "JS",
+			"level" : "+"			
+		},
+
+		{
+			"name" : "CSS",
+			"level" : "++"			
+		}
+	  ],
+	  "statement" : "Engineer Transiting to Front-End Web Development",
+	  "photoUrl" : "images/AlexeySolonenko_Photo_.PNG",
+	  "contactInfo" : [],
+	  "metrics": null,
+	  "origin" : "Russia"
+	  
+	  
+}
+
+

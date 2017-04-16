@@ -32,3 +32,26 @@ var weirdObject = {
 };
 console.log(weirdObject.property);
 console.log(weirdObject["8property"]);
+
+var toggle = false;
+var result = "true";
+bio.skills[0] != null ? (
+			HTMLheaderName = HTMLheaderName.replace('%data%',bio.name),
+			$("#header").prepend(HTMLheaderName),
+			$("#header").append(HTMLskillsStart),
+			HTMLskills = HTMLskills.replace('%data%',bio.skills[0].name),
+			$("#skills").append(HTMLskills),
+			HTMLskills = HTMLskills.replace(bio.skills[0].name,bio.skills[1].name),
+			$("#skills").append(HTMLskills),
+			HTMLskills = HTMLskills.replace(bio.skills[1].name,bio.skills[2].name),
+			$("#skills").append(HTMLskills)
+		)
+	:
+		(
+			console.log("Sorry, you did not list any skills, bro.")
+		);
+console.log(result);
+
+console.log(bio.metrics);
+
+	
