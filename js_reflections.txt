@@ -1,0 +1,30 @@
+KEY FEATURES
+20170415
+JS does not have classes, JS does not have a method to access 
+a single character in a string. substr shall be used.
+
+
+20170415 1719
+
+
+Today is Easter. I started JSBasics course for the second time.
+I had to interrupt the first time to complete a course in Git. 
+A course in Git was very useful. I am really glad that I put so
+much of effort into it. I am glad that I did this course.
+
+Reflections on JS.
+
+What is your first impression on JS.
+I find JS to be quite flexible and easy to write language.
+I know, that easiness of writing, as well as low strictness
+of definitions will shows its implications later on. However,
+flexibility with operators, sizes of numbers, strings, and 
+variables so far gives me confidence.
+
+What topics have you studied so far?
+Addressing of HTML elements through JS. JS stings, arrays, and now object.
+Console - an important and handy tool.
+
+Idea: start reflections with some Key Features section.
+Started actually.
+
