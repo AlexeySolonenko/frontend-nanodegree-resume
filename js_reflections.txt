@@ -28,3 +28,14 @@ Console - an important and handy tool.
 Idea: start reflections with some Key Features section.
 Started actually.
 
+20170415 1834
+Completed section on JS objects. A really useful insight. Key things to keep in mind:
+(1) almost anything can incorportate enything; (2) dot notation and square bracket notation;
+(3) [] - to address object elements names with forbidden symbols, like, for instance,
+ones to pass to php. 
+(4) - some literal notation using a colon - not clear what did they mean - most probably
+assignments inside the object structure;
+(5) JSON concept model - quite convenient;
+(6) OVerall - OK, forces you to google a lot of things and to experinment strictly within
+a particular area of study at one time.
+
