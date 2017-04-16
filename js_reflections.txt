@@ -1,10 +1,10 @@
 KEY FEATURES
-20170415
+20170416
 JS does not have classes, JS does not have a method to access 
 a single character in a string. substr shall be used.
 
 
-20170415 1719
+20170416 1719
 
 
 Today is Easter. I started JSBasics course for the second time.
@@ -28,7 +28,7 @@ Console - an important and handy tool.
 Idea: start reflections with some Key Features section.
 Started actually.
 
-20170415 1834
+20170416 1834
 Completed section on JS objects. A really useful insight. Key things to keep in mind:
 (1) almost anything can incorportate enything; (2) dot notation and square bracket notation;
 (3) [] - to address object elements names with forbidden symbols, like, for instance,
@@ -38,4 +38,16 @@ assignments inside the object structure;
 (5) JSON concept model - quite convenient;
 (6) OVerall - OK, forces you to google a lot of things and to experinment strictly within
 a particular area of study at one time.
+
+
+20170416 2122
+Completed problem set 4. Replace function, regular expressions.
+Was a hard, tedious, but fruitful excercise. I read a lot about regular
+expressions. Perhaps, it may be useful to memorize them in future.
+Also I collected all the links in the file. I think, I should carefully read
+them all one by one. 
+The course is good because it pointed out important and practical aspects, like
+dot and bracket notations.
+Also there was a piece of practice with accessing html properties through JS.
+And a lot of work with replacements.
 
