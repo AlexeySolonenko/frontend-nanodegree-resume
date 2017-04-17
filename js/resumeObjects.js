@@ -4,7 +4,7 @@
 /* WORK OBJECT */
 
 var work = {
-	"employment" : [ 
+	"jobs" : [ 
 		{
 			"status" : "current",
 			"position" : "Electrical and Instrument Engineer",
@@ -63,30 +63,30 @@ var education = {
 			"name" : "George Brown College",
 			"major" : "PLC Technician, certificate",
 			"years" : "2012",
-			"city" : "Distant, Toronto, Canada"
+			"city" : "Toronto"
 		}
 	],
 	
-	"fundamental" : [
+	"schools" : [
 		{
 			"name" : "Siberian Federal University",
 			"major" : "Industrial Control Systems",
 			"years" : "2002-2007",
-			"city" : "Krasnoyarsk, Russia"
+			"location" : "Krasnoyarsk"
 		},
 
 		{
 			"name" : "Siberian Federal University",
 			"major" : "English Language Translator",
 			"years" : "2003-2007",
-			"city" : "Krasnoyarsk, Russia"
+			"location" : "Krasnoyarsk"
 		},
 		
 		{
 			"name" : "Siberian Federal University",
 			"major" : "Reserve Army Officer, munitions.",
 			"years" : "2003-2007",
-			"city" : "Krasnoyarsk, Russia"
+			"location" : "Krasnoyarsk"
 		}
 	]
 	
@@ -95,30 +95,62 @@ var education = {
 /* PROJECT OBJECT */
 /* PROJECT OBJECT */
 /* PROJECT OBJECT */
+
 
 var projects = {
-	"projects" : [
+	"records" : [
 		{
-			"name" : "Language school website",
+			"title" : "Language school website",
+			"dates" : "",
 			"description" : "Website that I made myself",
-			"url" : "studysnami.ru"
+			"image" : "NA",
+			"url" : ""
 		},
 		
 		{
-			"name" : "Kharyaga Phase 4",
+			"title" : "Kharyaga Phase 4",
+			"dates" : "",
 			"description" : "30 MW expansion of a 30kbpd oil&gas facility",
-			"url" : "NA"
+			"image" : "NA",
+			"url" : ""
 		},
 		
 		{
-			"name" : "Kharyaga Phase 3",
+			"title" : "Kharyaga Phase 3",
+			"dates" : "",
 			"description" : "Commissioned of electrical systems of a remote 10 kbpd pad",
-			"url" : "NA"
+			"image" : "NA",
+			"url" : ""
 		}
 	
-	]
+	],
+	
+	"display" : function(objectProjects){
+			
+		objectProjects.records.forEach(function(project){
+			
+			$("#main").append(HTMLprojectStart);
+			var formattedHTML = HTMLprojectTitle.replace("%data%",project.title);
+			$("#projects").append(formattedHTML);
+			formattedHTML = HTMLprojectDates.replace("%data%",project.dates);
+			$("#projects").append(formattedHTML);
+			formattedHTML = HTMLprojectDescription.replace("%data%",project.description);
+			$("#projects").append(formattedHTML);
+			
+			project.image.length > 2 ? (
+					formattedHTML = HTMLprojectImage.replace("%data%",project.image),
+					$("#projects").append(formattedHTML)	
+				):(
+					console.log("No image specified")
+				);
+			});
+	}
+	
+
 }
 
+
+	
 /* SKILLS */
 /* SKILLS */
 /* SKILLS */
@@ -144,7 +176,12 @@ var bio = {
 	  ],
 	  "statement" : "Engineer Transiting to Front-End Web Development",
 	  "photoUrl" : "images/AlexeySolonenko_Photo_.PNG",
-	  "contactInfo" : [],
+	  "contacts" : 
+		[
+			{ "location" : "Malta, EU" },
+			{ "skype" : "" }
+			
+		],
 	  "metrics": null,
 	  "origin" : "Russia"
 	  

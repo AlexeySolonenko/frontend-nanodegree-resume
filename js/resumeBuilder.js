@@ -30,8 +30,8 @@ var weirdObject = {
     "property[]": "Pluto, Ceres, Eris, Haumea, Makemake",
     "8property": "Mars has two tiny moons: Phobos and Deimos"
 };
-console.log(weirdObject.property);
-console.log(weirdObject["8property"]);
+// console.log(weirdObject.property);
+// console.log(weirdObject["8property"]);
 
 var toggle = false;
 var result = "true";
@@ -50,14 +50,14 @@ bio.skills[0] != null ? (
 		(
 			console.log("Sorry, you did not list any skills, bro.")
 		);
-console.log(result);
+// console.log(result);
 
 console.log(bio.metrics);
 
-for (var i = 0; i < 9; i++) {console.log(i);}
+// for (var i = 0; i < 9; i++) {console.log(i);}
 
 function displayWork(){
-	work.employment.forEach(function(record){
+	work.jobs.forEach(function(record){
 		$("#workExperience").append(HTMLworkStart);
 		var formattedWork = HTMLworkEmployer.replace("%data%",record.employer);
 		$("#workExperience").append(formattedWork);
@@ -138,4 +138,30 @@ function locationizer(work_obj) {
 // Did locationizer() work? This line will tell you!
 console.log(locationizer(work));
 
+
+$("#main").append(internationalizeButton);
+
+function inName(fullName){
+	var secondName = fullName.substr(fullName.search(" "));
+	var firstName = fullName.substr(0, fullName.search(" "));
+	secondName = secondName.toUpperCase();
+	firstName = firstName.toLowerCase();
+	someChar = firstName[0].toUpperCase();
+	firstName = someChar + firstName.substr(1);
+	var intName = secondName + " " + firstName;
+	
+	
+return intName;	
+}
+console.log(inName("abra kadabra"));
+console.log(inName(bio.name));
+	
+projects.display(projects);
+
+$(document).click(function(loc){
+	console.log(loc.pageX, loc.pageY);
+});
+
+
+$("#mapDiv").append(googleMap);
 	

@@ -71,5 +71,20 @@ starting with HTML tags, gives them style, etc, and appends them to the HTML
 body elements - WOW! Really cool. I will study it tomorro in a lot lot lot more
 detail.
 
+20170417 1435
+It was a long morning I was doing lesson 4. Lesson 4 hits deeper into practice
+and independent usage of 3d side sources. 
+Lesson 4 teaches encapsulation, loops and conditions.
+Important to remember: eachOf or standard for shall be used for 
+looping through objects. Implications of for in are those that
+you need to provide extra controls for scope. Otherwise, the
+result of the function becomes unpredictable. Function is object.
+Also there was a touch of asynchronous function.
+I am leaving the finalization of the resume for later days. I would like to
+get some hands-on practice first. Only after that I will come to the resume
+and will try to finalize it.
+Overall satisfaction with the course is very high. Also, it gives a link and
+an example of usage of third party js libraries for animated stuff and
+illustrations, which are pretty awesome.
 
 
